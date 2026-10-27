@@ -40,7 +40,7 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..600&family=Jost:wght@300;400;500;600&family=Tiro+Devanagari+Hindi:ital@0;1&family=Mukta:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..600&family=DM+Sans:ital,opsz,wght@0,9..40,300..600;1,9..40,400&family=Tiro+Devanagari+Hindi:ital@0;1&family=Mukta:wght@300;400;500;600&display=swap">
 <style>
 /* Layout: an atelier lookbook. Jharokha-arch frames, bands of petal pastels, couture serif over a clean geometric body. */
 :root{
@@ -50,13 +50,13 @@
   --pista:#E1EBD3;       /* pistachio */
   --lilac:#EAE2F3;       /* lavender */
   --ink:#3A1E2C;         /* mulberry */
-  --muted:#7B5F6C;
+  --muted:#6B4F5D;
   --rose:#B5446A;        /* deep rose accent */
   --gold:#A9834A;        /* zari gold, used sparingly */
   --line:#EAD9DD;
   --shadow:0 18px 40px -22px rgba(90,30,55,.35);
   --display:"Bodoni Moda","Tiro Devanagari Hindi","Didot","Bodoni 72",Georgia,serif;
-  --body:"Jost","Mukta","Avenir Next","Century Gothic",system-ui,sans-serif;
+  --body:"DM Sans","Mukta","Helvetica Neue",Arial,system-ui,sans-serif;
   --deva:"Tiro Devanagari Hindi","Noto Serif Devanagari",serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
@@ -70,16 +70,17 @@
 
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.65;font-weight:400;overflow-x:hidden}
+html{font-size:15px}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.62;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-weight:400;overflow-x:hidden}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
 img{display:block;max-width:100%}
 a{color:inherit}
 :focus-visible{outline:2px solid var(--rose);outline-offset:3px;border-radius:4px}
 .wrap{max-width:1180px;margin-inline:auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
 h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.08;text-wrap:balance;margin:0}
-h2{font-size:clamp(2rem,4.4vw,3.2rem)}
+h2{font-size:clamp(1.75rem,3.4vw,2.55rem)}
 h2 em,h1 em{font-style:italic;color:var(--rose)}
-.eyebrow{font-size:.74rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:500;margin:0 0 14px}
+.eyebrow{font-size:.78rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:500;margin:0 0 14px}
 .deva{font-family:var(--deva);color:var(--rose);letter-spacing:0}
 p{margin:0}
 .lede{color:var(--muted);max-width:58ch}
@@ -102,7 +103,7 @@ header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;backgroun
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;line-height:1}
 .brand .mark{width:56px;height:56px;flex:none}
 .brand .wm{display:flex;flex-direction:column}
-.brand b{font-family:var(--display);font-weight:400;font-size:1.75rem;font-style:italic;letter-spacing:-.01em}
+.brand b{font-family:var(--display);font-weight:400;font-size:1.65rem;font-style:italic;letter-spacing:-.01em}
 .brand .by{font-family:var(--display);font-style:italic;font-size:.72rem;color:var(--rose);margin-top:3px;padding-left:2px}
 .brand small{font-size:.62rem;letter-spacing:.42em;text-transform:uppercase;color:var(--muted);margin-top:4px;padding-left:2px}
 .logo-lockup{display:flex;flex-direction:column;align-items:center;gap:6px;margin:0 auto 34px}
@@ -122,13 +123,13 @@ nav.links a:hover{color:var(--rose)}
 .hero::before{content:"";position:absolute;inset:-20% -10% auto auto;width:62vw;height:62vw;max-width:780px;max-height:780px;border-radius:50%;background:radial-gradient(circle at 40% 40%,var(--blush),transparent 65%);z-index:-1}
 .hero::after{content:"";position:absolute;left:-12vw;bottom:-18vw;width:46vw;height:46vw;border-radius:50%;background:radial-gradient(circle,var(--pista),transparent 65%);z-index:-1}
 .hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
-.hero h1{font-size:clamp(2.9rem,6.6vw,5.6rem);letter-spacing:-.01em}
+.hero h1{font-size:clamp(2.4rem,5.2vw,4.3rem);letter-spacing:-.01em}
 .hero h1 .deva{display:block;font-size:.34em;margin-bottom:18px;font-style:normal}
-.hero .lede{margin-top:26px;font-size:1.1rem}
+.hero .lede{margin-top:22px;font-size:1.05rem}
 .hero .ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
 .facts{display:flex;flex-wrap:wrap;gap:28px;margin-top:42px;padding-top:26px;border-top:1px solid var(--line)}
 .facts div{display:flex;flex-direction:column}
-.facts b{font-family:var(--display);font-size:1.6rem;font-weight:400;font-style:italic}
+.facts b{font-family:var(--display);font-size:1.4rem;font-weight:400;font-style:italic}
 .facts span{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
 
 .arches{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
@@ -165,13 +166,13 @@ section{padding-block:96px}
 .story figcaption b{display:block;font-family:var(--display);font-style:italic;font-weight:400;font-size:1.15rem;color:var(--ink)}
 .story .text{display:grid;gap:22px}
 .story .text p{max-width:58ch;color:var(--muted)}
-.story blockquote{margin:6px 0 0;font-family:var(--display);font-style:italic;font-size:1.5rem;line-height:1.35;color:var(--ink);border-left:2px solid var(--gold);padding-left:22px}
+.story blockquote{margin:6px 0 0;font-family:var(--display);font-style:italic;font-size:1.3rem;line-height:1.4;color:var(--ink);border-left:2px solid var(--gold);padding-left:22px}
 .sign{font-family:var(--display);font-style:italic;font-size:1.3rem;color:var(--rose)}
-.story .intro{font-family:var(--display);font-size:1.35rem;line-height:1.5;color:var(--ink);max-width:40ch}
+.story .intro{font-family:var(--display);font-size:1.2rem;line-height:1.5;color:var(--ink);max-width:40ch}
 .roles{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:64px}
 .roles article{background:var(--surface);border-radius:22px;padding:30px 28px;display:flex;flex-direction:column;gap:10px;box-shadow:var(--shadow);min-width:0}
 .roles .role{font-family:var(--display);font-style:italic;font-size:1.05rem;color:var(--rose)}
-.roles h3{font-size:1.55rem}
+.roles h3{font-size:1.35rem}
 .roles article > p:last-child{color:var(--muted);font-size:.96rem}
 @media (max-width:860px){.roles{grid-template-columns:1fr;margin-top:44px}}
 .byline{margin-top:22px;font-size:.95rem;color:var(--muted);display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
@@ -194,14 +195,14 @@ section{padding-block:96px}
 .card.wide{grid-column:span 2}
 .card.wide .ph{aspect-ratio:8.4/5.2;border-radius:14px}
 @media (max-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}.card.wide{grid-column:auto}.card.wide .ph{aspect-ratio:4/5.2;border-radius:200px 200px 14px 14px}}
-@media (max-width:640px){.grid{grid-template-columns:1fr 1fr;gap:26px 14px}.card h3{font-size:1.15rem}.card .tag{left:8px;bottom:8px}}
+@media (max-width:640px){.grid{grid-template-columns:1fr 1fr;gap:26px 14px}.card h3{font-size:1.08rem}.card .tag{left:8px;bottom:8px}}
 .card{display:flex;flex-direction:column;gap:14px;cursor:pointer;background:none;border:0;padding:0;text-align:left;color:inherit;font:inherit}
 .card .ph{position:relative;border-radius:200px 200px 14px 14px;overflow:hidden;aspect-ratio:4/5.2;background:var(--blush);max-width:100%}
 .card .ph img{width:100%;height:100%;object-fit:cover;transition:transform .9s ease}
 .card:hover .ph img{transform:scale(1.06)}
 .card .tag{position:absolute;left:14px;bottom:14px;background:var(--surface);color:var(--ink);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;padding:6px 11px;border-radius:999px}
 .card .meta{display:flex;flex-direction:column;gap:2px}
-.card h3{font-size:1.45rem}
+.card h3{font-size:1.3rem}
 .card .hi{font-family:var(--deva);color:var(--rose);font-size:.95rem}
 .card .fab{font-size:.84rem;color:var(--muted);margin-top:-10px}
 .card .price{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
@@ -213,7 +214,7 @@ section{padding-block:96px}
 .step::before{counter-increment:s;content:counter(s,lower-roman)".";position:absolute;top:0;left:0;font-family:var(--display);font-style:italic;font-size:2.4rem;color:var(--rose);line-height:1}
 .step::after{content:"";position:absolute;top:22px;left:64px;right:-10px;height:1px;background:var(--gold);opacity:.45}
 .step:last-child::after{display:none}
-.step h3{font-size:1.3rem;margin-bottom:8px}
+.step h3{font-size:1.2rem;margin-bottom:8px}
 .step p{font-size:.95rem;color:var(--muted)}
 .craft .duo{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;margin-top:64px}
 .craft .duo img{border-radius:16px;aspect-ratio:1/1;object-fit:cover;width:100%}
@@ -224,7 +225,7 @@ section{padding-block:96px}
 .occ{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;margin-top:44px}
 .occ article{background:var(--surface);border-radius:20px;padding:28px 24px;display:flex;flex-direction:column;gap:10px;border:1px solid var(--line)}
 .occ .when{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
-.occ h3{font-size:1.45rem}
+.occ h3{font-size:1.3rem}
 .occ p{font-size:.93rem;color:var(--muted)}
 .occ .pick{font-size:.82rem;color:var(--rose);margin-top:auto;padding-top:6px}
 
@@ -250,7 +251,7 @@ section{padding-block:96px}
 
 /* contact */
 .visit{text-align:center}
-.visit h2{font-size:clamp(2.4rem,6vw,4.4rem)}
+.visit h2{font-size:clamp(2rem,4.6vw,3.3rem)}
 .visit .lede{margin:20px auto 0}
 .visit .ctas{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:34px}
 .cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:56px;text-align:left}
@@ -302,6 +303,8 @@ dialog#zv::backdrop{background:#160D12}
 .viewctl{position:fixed;left:calc(14px + env(safe-area-inset-left,0px));bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:30;display:flex;align-items:center;gap:2px;padding:4px;border-radius:999px;background:color-mix(in srgb,var(--surface) 92%,transparent);border:1px solid var(--line);box-shadow:var(--shadow);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 .viewctl button{min-width:38px;height:38px;border-radius:999px;border:0;background:transparent;color:var(--ink);font:500 .9rem/1 var(--body);cursor:pointer;padding:0 8px}
 .viewctl button:hover{color:var(--rose);background:var(--blush)}
+.viewctl .vc-more{display:inline-flex;align-items:center;gap:2px}
+.viewctl .vc-t{font-family:var(--display);font-style:italic;font-size:1.05rem;color:var(--rose)}
 .viewctl .pct{font:500 .72rem/1 var(--body);color:var(--muted);min-width:40px;text-align:center;font-variant-numeric:tabular-nums}
 .viewctl svg,.zv-bar svg{width:18px;height:18px;vertical-align:middle}
 
@@ -316,7 +319,7 @@ dialog::backdrop{background:rgba(40,15,28,.55);backdrop-filter:blur(4px)}
 .lb .thumbs button[aria-current="true"]{opacity:1;border-color:var(--rose)}
 .lb .thumbs img{width:100%;height:100%;object-fit:cover}
 .lb .info{padding:44px 38px;display:flex;flex-direction:column;gap:16px;overflow:auto}
-.lb h3{font-size:2.3rem}
+.lb h3{font-size:1.9rem}
 .lb dl{display:grid;grid-template-columns:auto 1fr;gap:8px 18px;margin:6px 0;font-size:.92rem}
 .lb dt{color:var(--gold);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;padding-top:4px}
 .lb dd{margin:0}
@@ -770,10 +773,13 @@ dialog::backdrop{background:rgba(40,15,28,.55);backdrop-filter:blur(4px)}
 </dialog>
 
 <div class="viewctl" role="group" aria-label="Page view">
+  <button id="vcToggle" class="vc-t" type="button" aria-expanded="false" aria-label="Text size and full screen">Aa</button>
+  <span class="vc-more" id="vcMore" hidden>
   <button id="vcOut" type="button" aria-label="Make page smaller">A−</button>
   <span class="pct" id="vcPct">100%</span>
   <button id="vcIn" type="button" aria-label="Make page bigger">A+</button>
   <button id="vcFs" type="button" aria-label="Full screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+  </span>
 </div>
 
 <script>
@@ -987,6 +993,8 @@ function toggleFs(){
 ["vcFs","zvFs"].forEach(id=>{const b=document.getElementById(id); if(canFs) b.onclick=toggleFs; else b.hidden=true;});
 let pageZoom=1;
 function setPageZoom(z){ pageZoom=Math.round(Math.min(1.5,Math.max(0.8,z))*10)/10; document.documentElement.style.zoom=pageZoom===1?"":pageZoom; document.getElementById("vcPct").textContent=Math.round(pageZoom*100)+"%"; try{localStorage.setItem("gc-zoom",pageZoom);}catch(e){} }
+const vcT=document.getElementById("vcToggle"), vcM=document.getElementById("vcMore");
+vcT.onclick=()=>{ const o=vcM.hidden; vcM.hidden=!o; vcT.setAttribute("aria-expanded",o); vcT.textContent=o?"×":"Aa"; };
 document.getElementById("vcIn").onclick=()=>setPageZoom(pageZoom+0.1);
 document.getElementById("vcOut").onclick=()=>setPageZoom(pageZoom-0.1);
 try{ const z=parseFloat(localStorage.getItem("gc-zoom")); if(z) setPageZoom(z); }catch(e){}
