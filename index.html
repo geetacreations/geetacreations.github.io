@@ -1,0 +1,709 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Hand-painted chiffon and kota sarees and suits by Jaipur artist Geeta Chauhan. One-of-a-kind pastel florals, made to order. Enquire on WhatsApp.">
+<meta property="og:title" content="Geeta Creations · Hand painted in Jaipur">
+<meta property="og:description" content="One-of-a-kind hand-painted sarees and suits by Geeta Chauhan, Jaipur.">
+<meta property="og:image" content="img/p01.jpg">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#FBF6F5">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}[hidden]{display:none!important}</style>
+<title>Geeta Creations</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..600&family=Jost:wght@300;400;500;600&family=Tiro+Devanagari+Hindi:ital@0;1&family=Mukta:wght@300;400;500;600&display=swap">
+<style>
+/* Layout: an atelier lookbook. Jharokha-arch frames, bands of petal pastels, couture serif over a clean geometric body. */
+:root{
+  --bg:#FBF6F5;          /* rose-tinted ivory */
+  --surface:#FFFFFF;
+  --blush:#F7E1E4;       /* gulabi */
+  --pista:#E1EBD3;       /* pistachio */
+  --lilac:#EAE2F3;       /* lavender */
+  --ink:#3A1E2C;         /* mulberry */
+  --muted:#7B5F6C;
+  --rose:#B5446A;        /* deep rose accent */
+  --gold:#A9834A;        /* zari gold, used sparingly */
+  --line:#EAD9DD;
+  --shadow:0 18px 40px -22px rgba(90,30,55,.35);
+  --display:"Bodoni Moda","Tiro Devanagari Hindi","Didot","Bodoni 72",Georgia,serif;
+  --body:"Jost","Mukta","Avenir Next","Century Gothic",system-ui,sans-serif;
+  --deva:"Tiro Devanagari Hindi","Noto Serif Devanagari",serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#1C1117;--surface:#26171F;--blush:#3A2230;--pista:#262E21;--lilac:#2D2537;
+  --ink:#F7E9EE;--muted:#C4A9B5;--rose:#F29BB7;--gold:#DDBC80;--line:#3E2A35;
+  --shadow:0 18px 40px -22px rgba(0,0,0,.7);color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1C1117;--surface:#26171F;--blush:#3A2230;--pista:#262E21;--lilac:#2D2537;
+  --ink:#F7E9EE;--muted:#C4A9B5;--rose:#F29BB7;--gold:#DDBC80;--line:#3E2A35;
+  --shadow:0 18px 40px -22px rgba(0,0,0,.7);color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.65;font-weight:400;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+img{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--rose);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1180px;margin-inline:auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.08;text-wrap:balance;margin:0}
+h2{font-size:clamp(2rem,4.4vw,3.2rem)}
+h2 em,h1 em{font-style:italic;color:var(--rose)}
+.eyebrow{font-size:.74rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:500;margin:0 0 14px}
+.deva{font-family:var(--deva);color:var(--rose);letter-spacing:0}
+p{margin:0}
+.lede{color:var(--muted);max-width:58ch}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 26px;border-radius:999px;font:500 .82rem/1 var(--body);letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid var(--ink);color:var(--ink);background:transparent;cursor:pointer;transition:background .25s,color .25s,transform .25s}
+.btn:hover{background:var(--ink);color:var(--bg)}
+.btn.solid{background:var(--rose);border-color:var(--rose);color:#fff}
+:root[data-theme="dark"] .btn.solid{color:#1C1117}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .btn.solid{color:#1C1117}}
+.btn.solid:hover{transform:translateY(-2px);background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.btn svg{width:18px;height:18px}
+
+/* header */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:14px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;line-height:1}
+.brand .mark{width:56px;height:56px;flex:none}
+.brand .wm{display:flex;flex-direction:column}
+.brand b{font-family:var(--display);font-weight:400;font-size:1.75rem;font-style:italic;letter-spacing:-.01em}
+.brand small{font-size:.62rem;letter-spacing:.42em;text-transform:uppercase;color:var(--muted);margin-top:4px;padding-left:2px}
+.logo-lockup{display:flex;flex-direction:column;align-items:center;gap:6px;margin:0 auto 34px}
+.logo-lockup svg{width:120px;height:120px}
+.logo-lockup b{font-family:var(--display);font-style:italic;font-weight:400;font-size:2.6rem;line-height:1}
+.logo-lockup small{font-size:.7rem;letter-spacing:.5em;text-transform:uppercase;color:var(--muted);padding-left:.5em}
+.logo-lockup .hp{font-size:.62rem;letter-spacing:.3em;color:var(--gold)}
+nav.links{display:flex;gap:28px;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase}
+nav.links a{text-decoration:none;color:var(--muted);transition:color .2s}
+nav.links a:hover{color:var(--rose)}
+.top .btn{padding:11px 18px}
+@media (max-width:860px){nav.links{display:none}}
+
+/* hero */
+.hero{position:relative;overflow:hidden;padding-block:56px 72px}
+.hero::before{content:"";position:absolute;inset:-20% -10% auto auto;width:62vw;height:62vw;max-width:780px;max-height:780px;border-radius:50%;background:radial-gradient(circle at 40% 40%,var(--blush),transparent 65%);z-index:-1}
+.hero::after{content:"";position:absolute;left:-12vw;bottom:-18vw;width:46vw;height:46vw;border-radius:50%;background:radial-gradient(circle,var(--pista),transparent 65%);z-index:-1}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(2.9rem,6.6vw,5.6rem);letter-spacing:-.01em}
+.hero h1 .deva{display:block;font-size:.34em;margin-bottom:18px;font-style:normal}
+.hero .lede{margin-top:26px;font-size:1.1rem}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.facts{display:flex;flex-wrap:wrap;gap:28px;margin-top:42px;padding-top:26px;border-top:1px solid var(--line)}
+.facts div{display:flex;flex-direction:column}
+.facts b{font-family:var(--display);font-size:1.6rem;font-weight:400;font-style:italic}
+.facts span{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+
+.arches{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:end}
+.arch{border-radius:999px 999px 18px 18px;overflow:hidden;box-shadow:var(--shadow);background:var(--blush);aspect-ratio:3/4.4;max-width:100%}
+.arch img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s ease}
+.arch:hover img{transform:scale(1.05)}
+.arch.tall{grid-row:span 2;aspect-ratio:3/5.2;border:6px solid var(--surface)}
+.arches .arch:nth-child(2){aspect-ratio:1/1.05}
+.stamp{position:absolute;left:-46px;bottom:28px;width:124px;height:124px;animation:spin 28s linear infinite}
+.stamp text{font:500 9.6px var(--body);letter-spacing:3.3px;text-transform:uppercase;fill:var(--ink)}
+.stamp circle{fill:var(--surface)}
+.stamp path.f{fill:var(--rose)}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.stamp{animation:none}.arch img{transition:none}html{scroll-behavior:auto}}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:40px}.stamp{left:auto;right:-10px;bottom:-30px;width:100px;height:100px}}
+
+/* marquee */
+.ribbon{background:var(--ink);color:var(--bg);overflow:hidden;padding-block:16px}
+.ribbon .track{display:flex;gap:44px;width:max-content;animation:slide 40s linear infinite;font-family:var(--display);font-style:italic;font-size:1.25rem;white-space:nowrap}
+.ribbon .track span::after{content:"✿";font-style:normal;margin-left:44px;color:var(--rose)}
+@keyframes slide{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.ribbon .track{animation:none}}
+
+section{padding-block:96px}
+.band-blush{background:var(--blush)}
+.band-pista{background:var(--pista)}
+.band-lilac{background:var(--lilac)}
+
+/* story */
+.story .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:72px;align-items:center}
+.story figure{margin:0;position:relative}
+.story figure img{border-radius:999px 999px 20px 20px;aspect-ratio:4/5;object-fit:cover;width:100%;box-shadow:var(--shadow)}
+.story figcaption{position:absolute;right:-18px;bottom:36px;background:var(--surface);padding:16px 20px;border-radius:14px;box-shadow:var(--shadow);font-size:.82rem;max-width:220px;color:var(--muted)}
+.story figcaption b{display:block;font-family:var(--display);font-style:italic;font-weight:400;font-size:1.15rem;color:var(--ink)}
+.story .text{display:grid;gap:22px}
+.story .text p{max-width:58ch;color:var(--muted)}
+.story blockquote{margin:6px 0 0;font-family:var(--display);font-style:italic;font-size:1.5rem;line-height:1.35;color:var(--ink);border-left:2px solid var(--gold);padding-left:22px}
+.sign{font-family:var(--display);font-style:italic;font-size:1.3rem;color:var(--rose)}
+@media (max-width:860px){.story .wrap{grid-template-columns:1fr;gap:48px}.story figcaption{right:12px}}
+
+/* collection */
+.head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:28px;margin-bottom:40px}
+.head .lede{margin-top:16px}
+.filters{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:999px;padding:9px 16px;font:500 .74rem/1 var(--body);letter-spacing:.14em;text-transform:uppercase;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:all .2s}
+.chip:hover{border-color:var(--rose);color:var(--rose)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip i{width:12px;height:12px;border-radius:50%;display:inline-block;border:1px solid rgba(0,0,0,.12)}
+.filter-row{display:flex;flex-direction:column;gap:12px;align-items:flex-end}
+@media (max-width:760px){.filter-row{align-items:flex-start}}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:34px 26px}
+.card.wide{grid-column:span 2}
+.card.wide .ph{aspect-ratio:8.4/5.2;border-radius:14px}
+@media (max-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}.card.wide{grid-column:auto}.card.wide .ph{aspect-ratio:4/5.2;border-radius:200px 200px 14px 14px}}
+@media (max-width:640px){.grid{grid-template-columns:1fr 1fr;gap:26px 14px}.card h3{font-size:1.15rem}.card .tag{left:8px;bottom:8px}}
+.card{display:flex;flex-direction:column;gap:14px;cursor:pointer;background:none;border:0;padding:0;text-align:left;color:inherit;font:inherit}
+.card .ph{position:relative;border-radius:200px 200px 14px 14px;overflow:hidden;aspect-ratio:4/5.2;background:var(--blush);max-width:100%}
+.card .ph img{width:100%;height:100%;object-fit:cover;transition:transform .9s ease}
+.card:hover .ph img{transform:scale(1.06)}
+.card .tag{position:absolute;left:14px;bottom:14px;background:var(--surface);color:var(--ink);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;padding:6px 11px;border-radius:999px}
+.card .meta{display:flex;flex-direction:column;gap:2px}
+.card h3{font-size:1.45rem}
+.card .hi{font-family:var(--deva);color:var(--rose);font-size:.95rem}
+.card .fab{font-size:.84rem;color:var(--muted);margin-top:-10px}
+.card .price{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:40px 0}
+
+/* craft */
+.craft .steps{display:grid;grid-template-columns:repeat(5,1fr);gap:22px;margin-top:52px;counter-reset:s}
+.step{position:relative;padding-top:58px}
+.step::before{counter-increment:s;content:counter(s,lower-roman)".";position:absolute;top:0;left:0;font-family:var(--display);font-style:italic;font-size:2.4rem;color:var(--rose);line-height:1}
+.step::after{content:"";position:absolute;top:22px;left:64px;right:-10px;height:1px;background:var(--gold);opacity:.45}
+.step:last-child::after{display:none}
+.step h3{font-size:1.3rem;margin-bottom:8px}
+.step p{font-size:.95rem;color:var(--muted)}
+.craft .duo{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;margin-top:64px}
+.craft .duo img{border-radius:16px;aspect-ratio:1/1;object-fit:cover;width:100%}
+@media (max-width:960px){.craft .steps{grid-template-columns:1fr 1fr}.step::after{display:none}}
+@media (max-width:560px){.craft .steps{grid-template-columns:1fr}.craft .duo{grid-template-columns:1fr 1fr}.craft .duo img:last-child{display:none}}
+
+/* occasions */
+.occ{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;margin-top:44px}
+.occ article{background:var(--surface);border-radius:20px;padding:28px 24px;display:flex;flex-direction:column;gap:10px;border:1px solid var(--line)}
+.occ .when{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.occ h3{font-size:1.45rem}
+.occ p{font-size:.93rem;color:var(--muted)}
+.occ .pick{font-size:.82rem;color:var(--rose);margin-top:auto;padding-top:6px}
+
+/* bespoke */
+.bespoke .wrap{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.bespoke ol{list-style:none;padding:0;margin:30px 0 34px;display:grid;gap:20px}
+.bespoke li{display:grid;grid-template-columns:48px 1fr;gap:16px;align-items:start}
+.bespoke li span{width:48px;height:48px;border-radius:50%;border:1px solid var(--rose);display:grid;place-items:center;font-family:var(--display);font-style:italic;font-size:1.25rem;color:var(--rose)}
+.bespoke li b{display:block;font-weight:500}
+.bespoke li p{color:var(--muted);font-size:.95rem}
+.palette{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.palette img{border-radius:999px 999px 12px 12px;aspect-ratio:3/4.4;object-fit:cover;width:100%}
+.palette img:nth-child(2){transform:translateY(-28px)}
+@media (max-width:860px){.bespoke .wrap{grid-template-columns:1fr;gap:40px}}
+
+/* care */
+.care .list{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:40px}
+.care .list div{border-top:1px solid var(--ink);padding-top:16px}
+.care h3{font-size:1.2rem;margin-bottom:8px}
+.care p{font-size:.93rem;color:var(--muted)}
+@media (max-width:860px){.care .list{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.care .list{grid-template-columns:1fr}}
+
+/* contact */
+.visit{text-align:center}
+.visit h2{font-size:clamp(2.4rem,6vw,4.4rem)}
+.visit .lede{margin:20px auto 0}
+.visit .ctas{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:34px}
+.cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:56px;text-align:left}
+.cards3 div{background:var(--surface);border-radius:18px;padding:24px;border:1px solid var(--line);min-width:0}
+.cards3 small{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.cards3 p{font-family:var(--display);font-size:1.25rem;margin-top:6px;overflow-wrap:anywhere}
+.cards3 span{display:block;font-size:.85rem;color:var(--muted);margin-top:4px}
+.ph-note{display:inline-block;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;background:var(--lilac);color:var(--muted);padding:3px 8px;border-radius:6px;margin-left:6px;vertical-align:middle}
+@media (max-width:760px){.cards3{grid-template-columns:1fr}}
+
+footer{border-top:1px solid var(--line);padding-block:34px;font-size:.82rem;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px}
+
+/* language switch */
+.lang{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:9px 14px;font:500 .9rem/1 var(--body);cursor:pointer;transition:border-color .2s,color .2s}
+.lang:hover{border-color:var(--rose);color:var(--rose)}
+.top .actions{display:flex;align-items:center;gap:10px}
+html[lang="hi"] .eyebrow,html[lang="hi"] .chip,html[lang="hi"] nav.links a,html[lang="hi"] .btn,html[lang="hi"] .tag,html[lang="hi"] .price,html[lang="hi"] .facts span,html[lang="hi"] .when,html[lang="hi"] .lb dt,html[lang="hi"] .cards3 small,html[lang="hi"] .logo-lockup .hp{letter-spacing:.03em}
+html[lang="hi"] nav.links a,html[lang="hi"] .chip,html[lang="hi"] .btn{font-size:.92rem}
+html[lang="hi"] .eyebrow{font-size:.86rem}
+html[lang="hi"] .lb dt,html[lang="hi"] .cards3 small,html[lang="hi"] .when{font-size:.82rem}
+html[lang="hi"] body{line-height:1.8}
+html[lang="hi"] h1,html[lang="hi"] h2{line-height:1.3}
+@media (max-width:480px){.top .btn{padding:10px 12px}.top .btn .lbl{display:none}}
+
+/* lightbox */
+dialog{border:0;padding:0;border-radius:24px;max-width:min(980px,calc(100vw - 24px));width:100%;background:var(--surface);color:var(--ink);box-shadow:0 40px 80px -30px rgba(0,0,0,.5)}
+dialog::backdrop{background:rgba(40,15,28,.55);backdrop-filter:blur(4px)}
+.lb{display:grid;grid-template-columns:1.1fr 1fr;max-height:min(88vh,760px)}
+.lb .pic{background:var(--blush);min-height:0;position:relative}
+.lb .pic img{width:100%;height:100%;object-fit:cover;max-height:min(88vh,760px)}
+.lb .thumbs{position:absolute;left:14px;bottom:14px;display:flex;gap:8px}
+.lb .thumbs button{width:52px;height:52px;border-radius:10px;overflow:hidden;border:2px solid var(--surface);padding:0;cursor:pointer;opacity:.75}
+.lb .thumbs button[aria-current="true"]{opacity:1;border-color:var(--rose)}
+.lb .thumbs img{width:100%;height:100%;object-fit:cover}
+.lb .info{padding:44px 38px;display:flex;flex-direction:column;gap:16px;overflow:auto}
+.lb h3{font-size:2.3rem}
+.lb dl{display:grid;grid-template-columns:auto 1fr;gap:8px 18px;margin:6px 0;font-size:.92rem}
+.lb dt{color:var(--gold);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;padding-top:4px}
+.lb dd{margin:0}
+.lb .desc{color:var(--muted)}
+.lb .nav{display:flex;gap:10px;margin-top:auto;padding-top:10px}
+.x{position:absolute;top:14px;right:14px;z-index:2;width:42px;height:42px;border-radius:50%;border:0;background:var(--surface);color:var(--ink);font-size:1.4rem;cursor:pointer;box-shadow:var(--shadow)}
+.round{width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer;font-size:1.1rem}
+.round:hover{border-color:var(--rose);color:var(--rose)}
+@media (max-width:760px){.lb{grid-template-columns:1fr;max-height:none}.lb .pic img{max-height:52vh}.lb .info{padding:28px 22px}dialog{max-height:92vh;overflow:auto}}
+
+/* entrance: from a visible rest state */
+@media (prefers-reduced-motion:no-preference){
+  .hero .copy > *{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+  .hero .copy > *:nth-child(2){animation-delay:.08s}
+  .hero .copy > *:nth-child(3){animation-delay:.16s}
+  .hero .copy > *:nth-child(4){animation-delay:.24s}
+  .arch{animation:rise 1.1s cubic-bezier(.2,.7,.2,1) both}
+  .arch:nth-child(2){animation-delay:.12s}.arch:nth-child(3){animation-delay:.22s}
+}
+@keyframes rise{from{transform:translateY(18px)}to{transform:none}}
+</style>
+</head>
+<body>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <filter id="paint" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <radialGradient id="petalA" cx="0.5" cy="1" r="1.05">
+      <stop offset="0" stop-color="#D2557F"/><stop offset=".55" stop-color="#EE9DB6"/><stop offset="1" stop-color="#FBDDE6"/>
+    </radialGradient>
+    <radialGradient id="petalB" cx="0.5" cy="1" r="1">
+      <stop offset="0" stop-color="#A93462"/><stop offset=".6" stop-color="#DE6F94"/><stop offset="1" stop-color="#F6B9CB"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7FA05E"/><stop offset="1" stop-color="#CFE0B4"/>
+    </linearGradient>
+    <radialGradient id="heart"><stop offset="0" stop-color="#F3D58C"/><stop offset="1" stop-color="#B98A3E"/></radialGradient>
+    <path id="pt" d="M0 0C-19-8-21-32 0-41C21-32 19-8 0 0Z"/>
+    <path id="pt2" d="M0 0C-12-6-14-21 0-27C14-21 12-6 0 0Z"/>
+    <symbol id="gc-mark" viewBox="-52 -52 104 104">
+      <g filter="url(#paint)">
+        <path d="M-6 10C-22 16-38 30-46 46C-30 42-14 30-6 10Z" fill="url(#leaf)" opacity=".9"/>
+        <path d="M-6 10C-20 24-32 36-46 46" stroke="#5E7F42" stroke-width="1" fill="none" opacity=".55"/>
+        <path d="M8 12C24 14 38 26 44 40C28 38 16 28 8 12Z" fill="url(#leaf)" opacity=".85"/>
+        <g opacity=".9">
+          <use href="#pt" fill="url(#petalA)"/>
+          <use href="#pt" fill="url(#petalA)" transform="rotate(72)"/>
+          <use href="#pt" fill="url(#petalA)" transform="rotate(144)"/>
+          <use href="#pt" fill="url(#petalA)" transform="rotate(216)"/>
+          <use href="#pt" fill="url(#petalA)" transform="rotate(288)"/>
+        </g>
+        <g opacity=".92">
+          <use href="#pt2" fill="url(#petalB)" transform="rotate(36)"/>
+          <use href="#pt2" fill="url(#petalB)" transform="rotate(108)"/>
+          <use href="#pt2" fill="url(#petalB)" transform="rotate(180)"/>
+          <use href="#pt2" fill="url(#petalB)" transform="rotate(252)"/>
+          <use href="#pt2" fill="url(#petalB)" transform="rotate(324)"/>
+        </g>
+        <g stroke="#FFF" stroke-opacity=".55" stroke-width="1.1" fill="none" stroke-linecap="round">
+          <path d="M0-8C-2-18-1-28 1-34"/><path d="M0-8C-2-18-1-28 1-34" transform="rotate(72)"/><path d="M0-8C-2-18-1-28 1-34" transform="rotate(144)"/><path d="M0-8C-2-18-1-28 1-34" transform="rotate(216)"/><path d="M0-8C-2-18-1-28 1-34" transform="rotate(288)"/>
+        </g>
+        <circle r="6.5" fill="url(#heart)"/>
+        <g fill="#8E6420"><circle cx="-2" cy="-1.5" r="1"/><circle cx="2.2" cy="-.5" r="1"/><circle cx="0" cy="2.4" r="1"/></g>
+        <g fill="#B49AD8" opacity=".9"><circle cx="34" cy="-36" r="4"/><circle cx="41" cy="-29" r="3.2"/><circle cx="29" cy="-44" r="2.6"/><circle cx="44" cy="-39" r="2.2"/></g>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#home" aria-label="Geeta Creations home"><svg class="mark"><use href="#gc-mark"/></svg><span class="wm"><b>Geeta</b><small>Creations</small></span></a>
+    <nav class="links" aria-label="Main">
+      <a href="#collection">Collection</a>
+      <a href="#story">The Artist</a>
+      <a href="#craft">The Craft</a>
+      <a href="#bespoke">Bespoke</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <div class="actions">
+    <button class="lang" id="langBtn" type="button" lang="hi" aria-label="हिंदी में देखें">हिंदी</button>
+    <a class="btn solid wa" href="#visit" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2s.2-1.1.2-1.2-.2-.2-.5-.3Z"/></svg>
+      <span class="lbl">Enquire</span>
+    </a>
+    </div>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero" style="padding-block:56px 80px">
+  <div class="wrap">
+    <div class="copy">
+      <h1><span class="deva">हाथ से रंगी, दिल से बुनी</span>A garden, painted <em>by hand</em>, for you to wear.</h1>
+      <p class="lede">Chiffon and kota sarees and suits, painted petal by petal by Jaipur artist Geeta Chauhan. No prints, no repeats. Every piece leaves her frame as the only one of its kind.</p>
+      <div class="ctas">
+        <a class="btn solid" href="#collection">View the collection</a>
+        <a class="btn" href="#bespoke">Commission a piece</a>
+      </div>
+      <div class="facts">
+        <div><b>100%</b><span>Painted by hand</span></div>
+        <div><b>1 of 1</b><span>No two alike</span></div>
+        <div><b>Since 2013</b><span>Painting in Jaipur</span></div>
+      </div>
+    </div>
+    <div class="arches">
+      <div class="arch tall"><img src="img/p01.jpg" alt="Kota saree hand painted with pink roses and violet wildflowers"></div>
+      <div class="arch"><img src="img/p02.jpg" alt="Pistachio kota saree painted with pink lotus blooms"></div>
+      <div class="arch"><img src="img/p05.jpg" alt="Blush chiffon saree with a painted rose border"></div>
+      <svg class="stamp" viewBox="0 0 120 120" aria-hidden="true">
+        <defs><path id="c" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+        <circle cx="60" cy="60" r="58"/>
+        <text><textPath href="#c">Hand painted · One of one · Jaipur ·</textPath></text>
+        <g transform="translate(60 60)"><path class="f" d="M0-14c5 0 7 7 0 14c-7-7-5-14 0-14Zm0 28c-5 0-7-7 0-14c7 7 5 14 0 14ZM-14 0c0-5 7-7 14 0c-7 7-14 5-14 0Zm28 0c0 5-7 7-14 0c7-7 14-5 14 0Z"/></g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<div class="ribbon" aria-hidden="true">
+  <div class="track">
+    <span>Hand-painted chiffon</span><span>Kota doria</span><span>Pastel florals</span><span>Made in Jaipur</span><span>Bespoke commissions</span><span>One of one</span>
+    <span>Hand-painted chiffon</span><span>Kota doria</span><span>Pastel florals</span><span>Made in Jaipur</span><span>Bespoke commissions</span><span>One of one</span>
+  </div>
+</div>
+
+<section id="collection">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow">The Collection · Festive 2026</p>
+        <h2>The <em>Phulwari</em> edit</h2>
+        <p class="lede">28 one-of-a-kind pieces in gulabi, pista, peach, lilac and ivory. Sarees from ₹7,500, suits from ₹7,000. Tap any piece to see it closer and enquire on WhatsApp.</p>
+      </div>
+      <div class="filter-row">
+        <div class="filters" role="group" aria-label="Filter by type">
+          <button class="chip" data-type="all" aria-pressed="true">All</button>
+          <button class="chip" data-type="Saree" aria-pressed="false">Sarees</button>
+          <button class="chip" data-type="Suit" aria-pressed="false">Suits</button>
+          <button class="chip" data-type="Dupatta" aria-pressed="false">Dupattas</button>
+        </div>
+        <div class="filters" role="group" aria-label="Filter by colour">
+          <button class="chip" data-tone="Blush" aria-pressed="false"><i style="background:#F3C9D2"></i>Blush</button>
+          <button class="chip" data-tone="Pista" aria-pressed="false"><i style="background:#CFE0B4"></i>Pista</button>
+          <button class="chip" data-tone="Ivory" aria-pressed="false"><i style="background:#F2EDE0"></i>Ivory</button>
+          <button class="chip" data-tone="Mint" aria-pressed="false"><i style="background:#BFE6DA"></i>Mint</button>
+          <button class="chip" data-tone="Lilac" aria-pressed="false"><i style="background:#DCCBEE"></i>Lilac</button>
+          <button class="chip" data-tone="Peach" aria-pressed="false"><i style="background:#F6D2B4"></i>Peach</button>
+          <button class="chip" data-tone="Lemon" aria-pressed="false"><i style="background:#F3E38A"></i>Lemon</button>
+        </div>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<section id="story" class="story band-blush">
+  <div class="wrap">
+    <figure>
+      <img src="img/p14.jpg" alt="Blush kota saree stretched on the painting frame, roses and violets half finished">
+      <figcaption><b>On the frame</b>Every saree is stretched on Geeta's wooden frame and painted flat, one section at a time.</figcaption>
+    </figure>
+    <div class="text">
+      <p class="eyebrow">Meet the artist</p>
+      <h2>Geeta Chauhan, <em>painter of cloth</em></h2>
+      <p>Geeta paints the way other people keep a garden. She starts with a bare length of chiffon or kota, sketches a single branch, and lets it grow across the drape until the pallu blooms.</p>
+      <p>She has been painting sarees and sharing her work since at least 2013, and each year the garden grows: new flowers, new colours, new fabrics.</p>
+      <p>Her flowers are the ones that fill Jaipur in season: the roses of the old bagh, lotus from the sarovar, lilies, lilac and bougainvillea spilling over haveli walls. Petals are built up in layers, light to deep, so every bloom has the softness of a watercolour and the life of a real flower.</p>
+      <blockquote>“A print can be copied a thousand times. A painted flower happens only once.”</blockquote>
+      <p class="sign">Geeta Creations</p>
+    </div>
+  </div>
+</section>
+
+<section id="craft" class="craft">
+  <div class="wrap">
+    <p class="eyebrow">The Craft</p>
+    <h2>From a bare drape to a <em>painted heirloom</em></h2>
+    <p class="lede" style="margin-top:16px">Each piece takes days of slow, careful work. Here is how one of Geeta's sarees comes to life.</p>
+    <div class="steps">
+      <div class="step"><h3>The cloth</h3><p>Fine chiffon, kota doria or organza is chosen for its fall and sheen, then washed and pressed.</p></div>
+      <div class="step"><h3>The sketch</h3><p>The motif is drawn freehand, planned around the pallu, border and the pleats that will show.</p></div>
+      <div class="step"><h3>The frame</h3><p>The fabric is stretched tight on a wooden frame so every brushstroke lands true.</p></div>
+      <div class="step"><h3>The painting</h3><p>Petals and leaves are layered by hand, pale washes first, deep shading and fine veins last.</p></div>
+      <div class="step"><h3>The finish</h3><p>Colours are set, edges finished, and the piece is folded in tissue for you.</p></div>
+    </div>
+    <div class="duo">
+      <img src="img/p06.jpg" alt="Close-up of painted pink hydrangea on dusty-rose kota">
+      <img src="img/p11.jpg" alt="Pink chiffon dupatta draped, painted with cascading magenta blossoms">
+      <img src="img/p13.jpg" alt="Mint chiffon with painted magenta daisies and a red border">
+    </div>
+  </div>
+</section>
+
+<section class="band-pista">
+  <div class="wrap">
+    <p class="eyebrow">Dressed for the season</p>
+    <h2>For every <em>Jaipur occasion</em></h2>
+    <div class="occ">
+      <article><span class="when">Shravan</span><h3>Teej</h3><p>Lehariya has company. Fresh greens painted with coral roses, made for swings and sawan.</p><span class="pick">Try: Hari Teej, Pista Gulab</span></article>
+      <article><span class="when">Chaitra</span><h3>Gangaur</h3><p>Soft gulabi and ivory for the procession and the puja that follows.</p><span class="pick">Try: Gulab Bagh, Rose Jharokha</span></article>
+      <article><span class="when">All year</span><h3>Day weddings &amp; mehendi</h3><p>Garden florals that photograph beautifully in afternoon light.</p><span class="pick">Try: Basant Bahaar, Lily Darbar</span></article>
+      <article><span class="when">Any afternoon</span><h3>Kitty lunches &amp; soirées</h3><p>Light enough to wear for hours, rare enough that no one else will have it.</p><span class="pick">Try: Mint Daisy, Lavender Shaam</span></article>
+      <article><span class="when">Kartik</span><h3>Diwali &amp; Karwa Chauth</h3><p>Deeper rose tones and painted ribbons for the evenings that matter most.</p><span class="pick">Try: Resham Ribbon, Sindoori Lily</span></article>
+    </div>
+  </div>
+</section>
+
+<section id="bespoke" class="bespoke">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Bespoke</p>
+      <h2>Have your own story <em>painted</em></h2>
+      <p class="lede" style="margin-top:16px">Your favourite flower, your wedding colours, your daughter's first saree. Geeta paints commissions for brides, mothers and families who want something no one else will ever own.</p>
+      <ol>
+        <li><span>i</span><div><b>Share your idea</b><p>Message us your colour, flowers and occasion. A photo for inspiration helps.</p></div></li>
+        <li><span>ii</span><div><b>Approve the sketch</b><p>Geeta suggests the fabric and sends a motif layout for your approval.</p></div></li>
+        <li><span>iii</span><div><b>Receive your piece</b><p>Painted, finished and delivered to your door in Jaipur, or shipped across India.</p></div></li>
+      </ol>
+      <a class="btn solid wa" href="#visit" target="_blank" rel="noopener" data-msg="commission">Start a commission</a>
+    </div>
+    <div class="palette">
+      <img src="img/p09.jpg" alt="Parrot green chiffon saree painted with coral roses">
+      <img src="img/p08.jpg" alt="Lilac-blush chiffon painted with roses and lavender">
+      <img src="img/p15.jpg" alt="Pink fabric painted with flowing ribbon and florals">
+    </div>
+  </div>
+</section>
+
+<section class="care band-lilac">
+  <div class="wrap">
+    <p class="eyebrow">Caring for painted silk &amp; chiffon</p>
+    <h2>So it blooms <em>for years</em></h2>
+    <div class="list">
+      <div><h3>Dry clean only</h3><p>Always dry clean. Never soak, scrub or machine wash a painted piece.</p></div>
+      <div><h3>Fold in muslin</h3><p>Store wrapped in soft muslin and refold every few months along new lines.</p></div>
+      <div><h3>Perfume first</h3><p>Spray perfume before you drape, so it never touches the paint.</p></div>
+      <div><h3>Iron on reverse</h3><p>Press on the back at a low setting, with a thin cloth in between.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="visit" class="visit">
+  <div class="wrap">
+    <div class="logo-lockup" aria-hidden="true"><svg><use href="#gc-mark"/></svg><b>Geeta</b><small>Creations</small><span class="hp">✦ Hand painted in Jaipur ✦</span></div>
+    <p class="eyebrow">Visit · Enquire</p>
+    <h2>Come see the <em>colours</em> in person</h2>
+    <p class="lede">Viewings at our Jaipur studio are by appointment. Prefer to shop from home? Message us on WhatsApp and we'll send videos of any piece in daylight.</p>
+    <div class="ctas">
+      <a class="btn solid wa" href="#visit" target="_blank" rel="noopener">Message on WhatsApp</a>
+      <a class="btn" href="https://www.facebook.com/search/top?q=Geeta%27s%20Creation" target="_blank" rel="noopener">Facebook</a>
+    </div>
+    <div class="cards3">
+      <div><small>WhatsApp</small><p id="wa-num">+91 94134 75894</p><span>Orders, videos &amp; appointments</span></div>
+      <div><small>Instagram</small><p>@geetascreation</p><span>Launching soon <em class="ph-note">placeholder</em></span></div>
+      <div><small>Studio</small><p>Jaipur, Rajasthan</p><span>By appointment · Shipping across India</span></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span style="display:inline-flex;align-items:center;gap:8px"><svg width="22" height="22" aria-hidden="true"><use href="#gc-mark"/></svg><span>© 2026 Geeta Creations · Hand painted in Jaipur by Geeta Chauhan</span></span>
+    <span class="deva">हर धागे में एक फूल</span>
+  </div>
+</footer>
+
+<dialog id="lb" aria-label="Piece details">
+  <button class="x" id="lbClose" aria-label="Close">×</button>
+  <div class="lb">
+    <div class="pic"><img id="lbImg" alt=""><div class="thumbs" id="lbThumbs"></div></div>
+    <div class="info">
+      <p class="eyebrow" id="lbType" style="margin:0"></p>
+      <div><h3 id="lbName"></h3><span class="deva" id="lbHi"></span></div>
+      <p class="desc" id="lbDesc"></p>
+      <dl>
+        <dt>Fabric</dt><dd id="lbFab"></dd>
+        <dt>Motif</dt><dd id="lbMotif"></dd>
+        <dt>Ground</dt><dd id="lbTone"></dd>
+        <dt>Price</dt><dd id="lbPrice"></dd>
+      </dl>
+      <a class="btn solid" id="lbWa" target="_blank" rel="noopener">Enquire on WhatsApp</a>
+      <div class="nav"><button class="round" id="lbPrev" aria-label="Previous piece">←</button><button class="round" id="lbNext" aria-label="Next piece">→</button></div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+// Fill in Geeta's WhatsApp number (country code, no spaces), e.g. "919876543210".
+const WHATSAPP = "919413475894";
+const PRICE = "Price on request";
+
+const pieces = [
+  {id:"GC-01",price:"₹9,500",name:"Gulab Bagh",hi:"गुलाब बाग़",type:"Saree",tone:"Blush",fab:"Kota doria",motif:"Rambling roses with violet wildflowers",img:["p01"],
+   desc:"Full-blown pink roses climb the pallu, tangled with violet wildflowers and soft green leaves. The kota checks show through every petal."},
+  {id:"GC-02",price:"₹9,500",name:"Kamal Sarovar",hi:"कमल सरोवर",type:"Saree",tone:"Pista",fab:"Kota doria",motif:"Lotus blooms and deep-green foliage",img:["p02"],
+   desc:"Lotus flowers in rose and fuchsia, each petal veined by hand, float across a cool pistachio ground."},
+  {id:"GC-03",price:"₹10,500",name:"Lily Darbar",hi:"लिली दरबार",type:"Saree",tone:"Ivory",fab:"Chiffon",motif:"Orchid lilies and lavender sprays",img:["p00","p12"],
+   desc:"A court of orchid-pink lilies and lavender sprays gathers on the pallu, with scattered sprigs across the drape. Quietly regal."},
+  {id:"GC-04",price:"₹8,900",name:"Rose Jharokha",hi:"रोज़ झरोखा",type:"Saree",tone:"Blush",fab:"Chiffon",motif:"Rose garland border",img:["p05"],
+   desc:"A garland of English roses runs along a fine red border, framing the blush drape like a haveli window."},
+  {id:"GC-05",price:"₹8,500",name:"Hari Teej",hi:"हरी तीज",type:"Saree",tone:"Pista",fab:"Chiffon",motif:"Coral roses and lilac sprigs",img:["p09"],
+   desc:"Parrot green for the season of swings, painted with coral roses and lilac sprigs that trail down to the hem."},
+  {id:"GC-06",price:"₹9,900",name:"Basant Bahaar",hi:"बसंत बहार",type:"Saree",tone:"Blush",fab:"Kota doria",motif:"Roses and violets on a green wash",img:["p14"],
+   desc:"Spring in full flow: roses and violets over a soft wash of leaf green, painted in loose watercolour layers."},
+  {id:"GC-07",price:"₹7,900",name:"Sindoori Lily",hi:"सिंदूरी लिली",type:"Saree",tone:"Ivory",fab:"Chiffon",motif:"Vermilion lilies",img:["p03"],
+   desc:"Bold sindoori-red lilies on a clean ivory ground. Simple, striking, and lovely for festive evenings."},
+  {id:"GC-08",price:"₹9,500",name:"Gulabi Guchha",hi:"गुलाबी गुच्छा",type:"Saree",tone:"Blush",fab:"Kota doria",motif:"Hydrangea clusters",img:["p06"],
+   desc:"Dusky rose kota painted with full hydrangea clusters, each built from hundreds of tiny petals."},
+  {id:"GC-09",price:"₹8,500",name:"Mint Daisy",hi:"मिंट डेज़ी",type:"Saree",tone:"Mint",fab:"Chiffon",motif:"Magenta daisies with red border",img:["p13"],
+   desc:"Fresh mint chiffon scattered with magenta daisies and finished with a crisp red border. Made for long afternoons."},
+  {id:"GC-10",price:"",name:"Lavender Shaam",hi:"लैवेंडर शाम",type:"Saree",tone:"Blush",fab:"Chiffon",motif:"Roses and lavender",img:["p08"],
+   desc:"A whisper of lilac-pink, painted with pale roses and spires of lavender. Feather-light and dreamy."},
+  {id:"GC-11",price:"₹7,000",name:"Chandni Phool",hi:"चाँदनी फूल",type:"Suit",tone:"Ivory",fab:"Georgette (unstitched suit)",motif:"All-over star lilies",img:["p04"],
+   desc:"All-over pink star lilies and lilac sprigs, ready to be tailored into a kurta set of your choice."},
+  {id:"GC-12",price:"₹7,500",name:"Pista Gulab",hi:"पिस्ता गुलाब",type:"Suit",tone:"Pista",fab:"Kota doria (unstitched suit)",motif:"Coral-pink roses",img:["p10"],
+   desc:"Pistachio kota with sprays of coral-pink roses, painted for a breezy summer suit."},
+  {id:"GC-13",price:"₹7,500",name:"Resham Ribbon",hi:"रेशम रिबन",type:"Suit",tone:"Blush",fab:"Crepe (unstitched suit)",motif:"Painted ribbons and florals",img:["p15"],
+   desc:"Sweeping rose-red ribbons twist through clusters of tiny flowers. Playful, festive and completely one of a kind."},
+  {id:"GC-14",price:"",name:"Bougainvillea",hi:"बोगनविलिया",type:"Dupatta",tone:"Blush",fab:"Chiffon",motif:"Cascading magenta blossoms",img:["p11"],
+   desc:"Magenta blossoms tumble down a pink chiffon dupatta, like bougainvillea over a Jaipur wall."},
+  {id:"GC-15",price:"",name:"Neelam",hi:"नीलम",type:"Saree",tone:"Indigo",fab:"Chiffon",motif:"Gold-toned leaves on indigo",img:["n00"],
+   desc:"Deep indigo chiffon with painted leaves in soft gold and olive. Shown here worn, so you can see how the painting falls across the pleats and pallu."},
+  {id:"GC-16",price:"₹9,500",name:"Jamuni Gulab",hi:"जामुनी गुलाब",type:"Saree",tone:"Lilac",fab:"Chiffon",motif:"Orchid roses and violet sprigs",img:["n03"],
+   desc:"Lavender chiffon with trailing orchid-pink roses, violet sprigs and tiny white blossoms along both borders."},
+  {id:"GC-17",price:"₹8,900",name:"Gulabo",hi:"गुलाबो",type:"Saree",tone:"Ivory",fab:"Chiffon",motif:"Rose bouquets with a red border",img:["n01"],
+   desc:"Ivory chiffon scattered with little bouquets of red and pink roses, finished with a slim red border."},
+  {id:"GC-18",price:"₹8,500",name:"Basanti Gulab",hi:"बसंती गुलाब",type:"Saree",tone:"Lemon",fab:"Organza",motif:"Pink roses on lemon",img:["n04"],
+   desc:"Sheer lemon organza with sprays of pink roses. Sunny, light and lovely for daytime functions."},
+  {id:"GC-19",price:"₹8,500",name:"Sarson Lily",hi:"सरसों लिली",type:"Saree",tone:"Lemon",fab:"Chiffon",motif:"Coral star lilies on mustard yellow",img:["n07"],
+   desc:"The bright yellow of Rajasthan's mustard fields, painted with coral star lilies and sweeping green leaves."},
+  {id:"GC-20",price:"",name:"Chhoti Kaliyan",hi:"छोटी कलियाँ",type:"Saree",tone:"Blush",fab:"Crinkle chiffon",motif:"Tiny pink and violet blossoms",img:["n05"],
+   desc:"Hundreds of tiny pink and violet blossoms scattered over a soft crinkled chiffon. Delicate up close, dreamy from afar."},
+  {id:"GC-21",price:"₹8,900",name:"Kesariya Lily",hi:"केसरिया लिली",type:"Saree",tone:"Peach",fab:"Chiffon",motif:"Magenta star lilies on peach",img:["n08"],
+   desc:"Warm peach chiffon with a cascade of magenta star lilies down the pallu."},
+  {id:"GC-22",price:"₹7,500",name:"Gulabi Bel",hi:"गुलाबी बेल",type:"Saree",tone:"Peach",fab:"Chiffon",motif:"Pink flowering vine with pink border",img:["n09"],
+   desc:"A single flowering vine climbs the length of a pale peach drape, edged with pink stripes."},
+  {id:"GC-23",price:"₹11,500",name:"Narangi Gulab",hi:"नारंगी गुलाब",type:"Saree",tone:"Peach",fab:"Chiffon",motif:"Shaded orange roses and leaves",img:["n10"],
+   desc:"A rich pallu of shaded orange roses and layered green leaves, paired with a tangerine drape. One of the most detailed pieces in the edit."},
+  {id:"GC-24",price:"₹9,500",name:"Gulkand",hi:"गुलकंद",type:"Saree",tone:"Ivory",fab:"Crinkle chiffon",motif:"Large pink roses",img:["n06"],
+   desc:"Big, soft pink roses painted in watercolour layers on white crinkle chiffon. Sweet as its name."},
+  {id:"GC-25",price:"₹9,500",name:"Neel Gulab",hi:"नील गुलाब",type:"Saree",tone:"Ivory",fab:"Chiffon",motif:"Orange roses with indigo leaves",img:["n11"],
+   desc:"Fiery orange-red roses set against painted indigo leaves, with a royal blue border. Bold and unexpected."},
+  {id:"GC-26",price:"₹8,900",name:"Pista Kaliyan",hi:"पिस्ता कलियाँ",type:"Saree",tone:"Pista",fab:"Chiffon",motif:"Pink hydrangea on pistachio",img:["n12"],
+   desc:"Soft pistachio chiffon with curling stems of pink hydrangea and a pink border."},
+  {id:"GC-27",price:"₹9,900",name:"Firozi Lehar",hi:"फ़िरोज़ी लहर",type:"Saree",tone:"Mint",fab:"Chiffon",motif:"Teal waves and wine flowers",img:["n13"],
+   desc:"Aqua chiffon with flowing teal waves and clusters of wine-red flowers, finished with a gold edge."},
+  {id:"GC-28",price:"₹8,500",name:"Neel Phulwari",hi:"नील फुलवारी",type:"Saree",tone:"Blush",fab:"Chiffon",motif:"Blue and pink wildflowers",img:["n14"],
+   desc:"A blush drape covered in cornflower-blue and pink wildflowers, painted in loose, happy strokes."}
+];
+
+
+// ---- Hindi / English ----
+const HI = {"Collection": "संग्रह", "The Artist": "कलाकार", "The Craft": "कारीगरी", "Bespoke": "ऑर्डर पर", "Visit": "संपर्क", "Enquire": "पूछताछ", "<span class=\"deva\">हाथ से रंगी, दिल से बुनी</span>A garden, painted <em>by hand</em>, for you to wear.": "<span class=\"deva\">हाथ से रंगी, दिल से बुनी</span>आपके पहनने के लिए, <em>हाथों से</em> रंगा एक बाग़।", "Chiffon and kota sarees and suits, painted petal by petal by Jaipur artist Geeta Chauhan. No prints, no repeats. Every piece leaves her frame as the only one of its kind.": "जयपुर की कलाकार गीता चौहान द्वारा पंखुड़ी-दर-पंखुड़ी हाथ से रंगी शिफॉन और कोटा की साड़ियाँ और सूट। न प्रिंट, न दोहराव। उनके फ़्रेम से निकलने वाला हर पीस अपनी तरह का अकेला होता है।", "View the collection": "संग्रह देखें", "Commission a piece": "अपनी पसंद का बनवाएँ", "Painted by hand": "हाथ से रंगी", "1 of 1": "एकमात्र", "No two alike": "कोई दो एक जैसी नहीं", "Since 2013": "2013 से", "Painting in Jaipur": "जयपुर में चित्रकारी", "Hand-painted chiffon": "हाथ से रंगी शिफॉन", "Kota doria": "कोटा डोरिया", "Pastel florals": "पेस्टल फूल", "Made in Jaipur": "जयपुर में बनी", "Bespoke commissions": "ऑर्डर पर चित्रकारी", "One of one": "एकमात्र", "The Collection · Festive 2026": "संग्रह · त्योहार 2026", "The <em>Phulwari</em> edit": "<em>फुलवारी</em> संग्रह", "28 one-of-a-kind pieces in gulabi, pista, peach, lilac and ivory. Sarees from ₹7,500, suits from ₹7,000. Tap any piece to see it closer and enquire on WhatsApp.": "गुलाबी, पिस्ता, पीच, लैवेंडर और आइवरी रंगों में 28 अनोखे पीस। साड़ियाँ ₹7,500 से, सूट ₹7,000 से। किसी भी पीस को पास से देखने और WhatsApp पर पूछने के लिए उस पर टैप करें।", "All": "सभी", "Sarees": "साड़ियाँ", "Suits": "सूट", "Dupattas": "दुपट्टे", "<b>On the frame</b>Every saree is stretched on Geeta's wooden frame and painted flat, one section at a time.": "<b>फ़्रेम पर</b>हर साड़ी को गीता जी के लकड़ी के फ़्रेम पर कसकर, एक-एक हिस्सा करके रंगा जाता है।", "Meet the artist": "कलाकार से मिलिए", "Geeta Chauhan, <em>painter of cloth</em>": "गीता चौहान, <em>कपड़े की चित्रकार</em>", "Geeta paints the way other people keep a garden. She starts with a bare length of chiffon or kota, sketches a single branch, and lets it grow across the drape until the pallu blooms.": "गीता जी वैसे ही चित्र बनाती हैं जैसे कोई बाग़ सँवारता है। वे शिफॉन या कोटा के सादे कपड़े से शुरू करती हैं, एक डाली का स्केच बनाती हैं, और उसे पूरी साड़ी पर तब तक बढ़ने देती हैं जब तक पल्लू खिल न उठे।", "She has been painting sarees and sharing her work since at least 2013, and each year the garden grows: new flowers, new colours, new fabrics.": "वे कम से कम 2013 से साड़ियाँ रंग रही हैं और अपना काम साझा कर रही हैं, और हर साल यह बाग़ बढ़ता जाता है: नए फूल, नए रंग, नए कपड़े।", "Her flowers are the ones that fill Jaipur in season: the roses of the old bagh, lotus from the sarovar, lilies, lilac and bougainvillea spilling over haveli walls. Petals are built up in layers, light to deep, so every bloom has the softness of a watercolour and the life of a real flower.": "उनके फूल वही हैं जो मौसम में जयपुर को भर देते हैं: पुराने बाग़ों के गुलाब, सरोवर के कमल, लिली, लैवेंडर और हवेलियों की दीवारों से झरती बोगनविलिया। पंखुड़ियाँ हल्के से गहरे रंग की परतों में बनती हैं, ताकि हर फूल में जलरंग की कोमलता और असली फूल की जान हो।", "“A print can be copied a thousand times. A painted flower happens only once.”": "“प्रिंट हज़ार बार कॉपी हो सकता है। रंगा हुआ फूल सिर्फ़ एक बार खिलता है।”", "From a bare drape to a <em>painted heirloom</em>": "सादे कपड़े से <em>रंगी हुई विरासत</em> तक", "Each piece takes days of slow, careful work. Here is how one of Geeta's sarees comes to life.": "हर पीस में कई दिनों की धीमी, सधी हुई मेहनत लगती है। ऐसे जन्म लेती है गीता जी की एक साड़ी।", "The cloth": "कपड़ा", "The sketch": "स्केच", "The frame": "फ़्रेम", "The painting": "चित्रकारी", "The finish": "फ़िनिशिंग", "Fine chiffon, kota doria or organza is chosen for its fall and sheen, then washed and pressed.": "बारीक शिफॉन, कोटा डोरिया या ऑर्गेन्ज़ा को उसके गिराव और चमक के लिए चुना जाता है, फिर धोकर प्रेस किया जाता है।", "The motif is drawn freehand, planned around the pallu, border and the pleats that will show.": "मोटिफ़ हाथ से खुला बनाया जाता है, पल्लू, बॉर्डर और दिखने वाली प्लीट्स को ध्यान में रखकर।", "The fabric is stretched tight on a wooden frame so every brushstroke lands true.": "कपड़े को लकड़ी के फ़्रेम पर कसकर ताना जाता है ताकि हर स्ट्रोक सही जगह पड़े।", "Petals and leaves are layered by hand, pale washes first, deep shading and fine veins last.": "पंखुड़ियाँ और पत्तियाँ हाथ से परत-दर-परत बनती हैं: पहले हल्के रंग, आख़िर में गहरी छाया और बारीक नसें।", "Colours are set, edges finished, and the piece is folded in tissue for you.": "रंग पक्के किए जाते हैं, किनारे तैयार होते हैं, और पीस को आपके लिए टिश्यू में तह किया जाता है।", "Dressed for the season": "मौसम के हिसाब से", "For every <em>Jaipur occasion</em>": "जयपुर के हर <em>मौक़े</em> के लिए", "Shravan": "सावन", "Chaitra": "चैत्र", "All year": "साल भर", "Any afternoon": "कोई भी दोपहर", "Kartik": "कार्तिक", "Teej": "तीज", "Gangaur": "गणगौर", "Day weddings &amp; mehendi": "दिन की शादियाँ और मेहंदी", "Kitty lunches &amp; soirées": "किटी लंच और महफ़िलें", "Diwali &amp; Karwa Chauth": "दीवाली और करवा चौथ", "Lehariya has company. Fresh greens painted with coral roses, made for swings and sawan.": "लहरिया को मिला नया साथी। ताज़ा हरे रंग पर मूँगिया गुलाब, झूलों और सावन के लिए।", "Soft gulabi and ivory for the procession and the puja that follows.": "सवारी और उसके बाद की पूजा के लिए हल्का गुलाबी और आइवरी।", "Garden florals that photograph beautifully in afternoon light.": "बाग़ जैसे फूल, जो दोपहर की रोशनी में तस्वीरों में बेहद सुंदर आते हैं।", "Light enough to wear for hours, rare enough that no one else will have it.": "घंटों पहनने लायक हल्की, और इतनी अनोखी कि किसी और के पास न हो।", "Deeper rose tones and painted ribbons for the evenings that matter most.": "सबसे ख़ास शामों के लिए गहरे गुलाबी रंग और रंगे हुए रिबन।", "Try: Hari Teej, Pista Gulab": "देखें: हरी तीज, पिस्ता गुलाब", "Try: Gulab Bagh, Rose Jharokha": "देखें: गुलाब बाग़, रोज़ झरोखा", "Try: Basant Bahaar, Lily Darbar": "देखें: बसंत बहार, लिली दरबार", "Try: Mint Daisy, Lavender Shaam": "देखें: मिंट डेज़ी, लैवेंडर शाम", "Try: Resham Ribbon, Sindoori Lily": "देखें: रेशम रिबन, सिंदूरी लिली", "Have your own story <em>painted</em>": "अपनी कहानी <em>रंगवाइए</em>", "Your favourite flower, your wedding colours, your daughter's first saree. Geeta paints commissions for brides, mothers and families who want something no one else will ever own.": "आपका पसंदीदा फूल, आपकी शादी के रंग, आपकी बेटी की पहली साड़ी। गीता जी दुल्हनों, माँओं और उन परिवारों के लिए ऑर्डर पर चित्रकारी करती हैं जो ऐसा कुछ चाहते हैं जो किसी और के पास कभी न हो।", "Share your idea": "अपना विचार बताइए", "Approve the sketch": "स्केच पसंद कीजिए", "Receive your piece": "अपना पीस पाइए", "Message us your colour, flowers and occasion. A photo for inspiration helps.": "अपना रंग, फूल और मौक़ा हमें मैसेज करें। प्रेरणा के लिए कोई फ़ोटो हो तो और अच्छा।", "Geeta suggests the fabric and sends a motif layout for your approval.": "गीता जी कपड़ा सुझाती हैं और आपकी मंज़ूरी के लिए मोटिफ़ का लेआउट भेजती हैं।", "Painted, finished and delivered to your door in Jaipur, or shipped across India.": "रंगा हुआ, तैयार पीस जयपुर में आपके घर तक, या पूरे भारत में भेजा जाता है।", "Start a commission": "ऑर्डर शुरू करें", "Caring for painted silk &amp; chiffon": "रंगे हुए सिल्क और शिफॉन की देखभाल", "So it blooms <em>for years</em>": "ताकि यह <em>बरसों</em> खिली रहे", "Dry clean only": "सिर्फ़ ड्राई क्लीन", "Fold in muslin": "मलमल में तह करें", "Perfume first": "पहले परफ़्यूम", "Iron on reverse": "उल्टी तरफ़ प्रेस करें", "Always dry clean. Never soak, scrub or machine wash a painted piece.": "हमेशा ड्राई क्लीन कराएँ। रंगे हुए पीस को कभी भिगोएँ, रगड़ें या मशीन में न धोएँ।", "Store wrapped in soft muslin and refold every few months along new lines.": "मुलायम मलमल में लपेटकर रखें और हर कुछ महीनों में नई तह लगाएँ।", "Spray perfume before you drape, so it never touches the paint.": "साड़ी पहनने से पहले परफ़्यूम लगाएँ, ताकि वह रंग को न छुए।", "Press on the back at a low setting, with a thin cloth in between.": "पीछे की तरफ़ से, कम तापमान पर, बीच में पतला कपड़ा रखकर प्रेस करें।", "✦ Hand painted in Jaipur ✦": "✦ जयपुर में हाथ से रंगी ✦", "Visit · Enquire": "मिलें · पूछें", "Come see the <em>colours</em> in person": "<em>रंगों</em> को ख़ुद आकर देखिए", "Viewings at our Jaipur studio are by appointment. Prefer to shop from home? Message us on WhatsApp and we'll send videos of any piece in daylight.": "हमारे जयपुर स्टूडियो में अपॉइंटमेंट से मिल सकते हैं। घर बैठे ख़रीदना चाहती हैं? WhatsApp पर मैसेज करें, हम किसी भी पीस का दिन की रोशनी में वीडियो भेज देंगे।", "Message on WhatsApp": "WhatsApp पर मैसेज करें", "Facebook": "फ़ेसबुक", "Instagram": "इंस्टाग्राम", "Studio": "स्टूडियो", "Orders, videos &amp; appointments": "ऑर्डर, वीडियो और अपॉइंटमेंट", "Launching soon <em class=\"ph-note\">placeholder</em>": "जल्द आ रहा है <em class=\"ph-note\">placeholder</em>", "Jaipur, Rajasthan": "जयपुर, राजस्थान", "By appointment · Shipping across India": "अपॉइंटमेंट से · पूरे भारत में डिलीवरी", "© 2026 Geeta Creations · Hand painted in Jaipur by Geeta Chauhan": "© 2026 गीता क्रिएशन्स · जयपुर में गीता चौहान द्वारा हाथ से रंगी", "Fabric": "कपड़ा", "Motif": "मोटिफ़", "Ground": "रंग", "Price": "मूल्य", "Enquire on WhatsApp": "WhatsApp पर पूछें"};
+const PIECE_HI = {"GC-01": ["गुलाबों की बेल और बैंगनी जंगली फूल", "पल्लू पर खिले बड़े गुलाबी गुलाब, बैंगनी जंगली फूलों और हरी पत्तियों के साथ लिपटे हुए। हर पंखुड़ी के बीच से कोटा की चौखानी बुनावट झलकती है।"], "GC-02": ["कमल के फूल और गहरी हरी पत्तियाँ", "ठंडे पिस्ता रंग पर तैरते गुलाबी और रानी रंग के कमल, जिनकी हर पंखुड़ी की नस हाथ से उकेरी गई है।"], "GC-03": ["ऑर्किड लिली और लैवेंडर की टहनियाँ", "पल्लू पर ऑर्किड-गुलाबी लिली और लैवेंडर की टहनियों का दरबार सजा है, और पूरी साड़ी पर बिखरी छोटी कलियाँ। शांत और शाही।"], "GC-04": ["गुलाबों की माला वाला बॉर्डर", "पतले लाल बॉर्डर के साथ चलती अंग्रेज़ी गुलाबों की माला, जो हल्के गुलाबी आँचल को हवेली के झरोखे की तरह सजाती है।"], "GC-05": ["मूँगिया गुलाब और लैवेंडर की कलियाँ", "झूलों के मौसम का तोतई हरा रंग, जिस पर मूँगिया गुलाब और लैवेंडर की कलियाँ किनारे तक उतरती हैं।"], "GC-06": ["हरी छटा पर गुलाब और वायलेट", "पूरे शबाब पर बसंत: हल्की हरी छटा पर गुलाब और वायलेट, जलरंग जैसी परतों में रंगे हुए।"], "GC-07": ["सिंदूरी लिली", "साफ़ आइवरी ज़मीन पर गहरी सिंदूरी लिली। सादी, असरदार और त्योहारों की शाम के लिए बेहद सुंदर।"], "GC-08": ["हाइड्रेंजिया के गुच्छे", "धूसर गुलाबी कोटा पर भरे-भरे हाइड्रेंजिया के गुच्छे, हर गुच्छा सैकड़ों नन्ही पंखुड़ियों से बना।"], "GC-09": ["रानी रंग की डेज़ी और लाल बॉर्डर", "ताज़ा मिंट शिफॉन पर बिखरी रानी रंग की डेज़ी और एक चटक लाल बॉर्डर। लंबी दोपहरों के लिए बनी।"], "GC-10": ["गुलाब और लैवेंडर", "हल्की लैवेंडर-गुलाबी आभा, जिस पर हल्के गुलाब और लैवेंडर की टहनियाँ रंगी हैं। पंख जैसी हल्की और सपनीली।"], "GC-11": ["पूरे कपड़े पर स्टार लिली", "पूरे कपड़े पर गुलाबी स्टार लिली और लैवेंडर की टहनियाँ, आपकी पसंद के कुर्ता सेट में सिलवाने के लिए तैयार।"], "GC-12": ["मूँगिया-गुलाबी गुलाब", "पिस्ता कोटा पर मूँगिया-गुलाबी गुलाबों की टहनियाँ, गर्मियों के हल्के सूट के लिए।"], "GC-13": ["रंगे हुए रिबन और फूल", "नन्हे फूलों के गुच्छों के बीच लहराते गुलाबी-लाल रिबन। चंचल, उत्सवी और पूरी तरह अनोखा।"], "GC-14": ["झरते हुए रानी रंग के फूल", "गुलाबी शिफॉन दुपट्टे पर झरते रानी रंग के फूल, जैसे जयपुर की किसी दीवार पर बोगनविलिया।"], "GC-15": ["नील पर सुनहरी पत्तियाँ", "गहरे नीले शिफॉन पर हल्की सुनहरी और ज़ैतूनी पत्तियाँ। यहाँ पहनी हुई दिखाई गई है, ताकि आप देख सकें कि चित्रकारी प्लीट्स और पल्लू पर कैसे गिरती है।"], "GC-16": ["ऑर्किड गुलाब और बैंगनी टहनियाँ", "लैवेंडर शिफॉन, जिसके दोनों किनारों पर ऑर्किड-गुलाबी गुलाब, बैंगनी टहनियाँ और नन्हे सफ़ेद फूल चलते हैं।"], "GC-17": ["गुलाबों के गुलदस्ते और लाल बॉर्डर", "आइवरी शिफॉन पर लाल और गुलाबी गुलाबों के छोटे-छोटे गुलदस्ते, पतले लाल बॉर्डर के साथ।"], "GC-18": ["नींबू पीले पर गुलाबी गुलाब", "पारदर्शी नींबू-पीली ऑर्गेन्ज़ा पर गुलाबी गुलाबों की टहनियाँ। धूप जैसी खिली, हल्की और दिन के समारोहों के लिए सुंदर।"], "GC-19": ["सरसों पीले पर मूँगिया स्टार लिली", "राजस्थान के सरसों के खेतों जैसा चटक पीला, मूँगिया स्टार लिली और लहराती हरी पत्तियों से रंगा।"], "GC-20": ["नन्हे गुलाबी और बैंगनी फूल", "मुलायम क्रिंकल शिफॉन पर बिखरे सैकड़ों नन्हे गुलाबी और बैंगनी फूल। पास से नाज़ुक, दूर से सपनीली।"], "GC-21": ["पीच पर रानी रंग की स्टार लिली", "गर्म पीच शिफॉन, जिसके पल्लू पर रानी रंग की स्टार लिली झरती हैं।"], "GC-22": ["गुलाबी फूलों की बेल और गुलाबी बॉर्डर", "हल्की पीच साड़ी की पूरी लंबाई पर चढ़ती एक फूलों की बेल, गुलाबी धारियों के किनारे के साथ।"], "GC-23": ["छायादार नारंगी गुलाब और पत्तियाँ", "छायादार नारंगी गुलाबों और परतदार हरी पत्तियों वाला भरा-पूरा पल्लू, नारंगी आँचल के साथ। इस संग्रह की सबसे बारीक कारीगरी में से एक।"], "GC-24": ["बड़े गुलाबी गुलाब", "सफ़ेद क्रिंकल शिफॉन पर जलरंग की परतों में रंगे बड़े, मुलायम गुलाबी गुलाब। नाम जितनी ही मीठी।"], "GC-25": ["नीली पत्तियों के साथ नारंगी गुलाब", "नीली पत्तियों के बीच दहकते नारंगी-लाल गुलाब, शाही नीले बॉर्डर के साथ। बोल्ड और अनोखी।"], "GC-26": ["पिस्ता पर गुलाबी हाइड्रेंजिया", "मुलायम पिस्ता शिफॉन पर गुलाबी हाइड्रेंजिया की घुमावदार डालियाँ और गुलाबी बॉर्डर।"], "GC-27": ["फ़िरोज़ी लहरें और वाइन रंग के फूल", "एक्वा शिफॉन पर बहती फ़िरोज़ी लहरें और वाइन-लाल फूलों के गुच्छे, सुनहरी किनारी के साथ।"], "GC-28": ["नीले और गुलाबी जंगली फूल", "हल्की गुलाबी साड़ी पर नीले और गुलाबी जंगली फूल, खुले और खुशमिज़ाज स्ट्रोक्स में रंगे।"]};
+const FAB_HI = {"Chiffon":"शिफॉन","Kota doria":"कोटा डोरिया","Organza":"ऑर्गेन्ज़ा","Crinkle chiffon":"क्रिंकल शिफॉन","Georgette (unstitched suit)":"जॉर्जेट (अनसिला सूट)","Kota doria (unstitched suit)":"कोटा डोरिया (अनसिला सूट)","Crepe (unstitched suit)":"क्रेप (अनसिला सूट)"};
+const TYPE_HI = {"Saree":"साड़ी","Suit":"सूट","Dupatta":"दुपट्टा"};
+const TONE_HI = {"Blush":"गुलाबी","Pista":"पिस्ता","Ivory":"आइवरी","Mint":"मिंट","Lilac":"लैवेंडर","Peach":"पीच","Lemon":"नींबू पीला","Indigo":"नील"};
+const MSG = {
+  en:{general:"Hello Geeta ji, I saw your hand-painted collection and would love to know more.",commission:"Hello Geeta ji, I'd like to commission a hand-painted piece.",piece:(n,id)=>`Hello Geeta ji, I'm interested in "${n}" (${id}). Is it available?`,onreq:"Price on request",empty:"Nothing in this combination yet. Try another colour, or ask us for a commission."},
+  hi:{general:"नमस्ते गीता जी, मैंने आपका हाथ से रंगा संग्रह देखा और इसके बारे में और जानना चाहती हूँ।",commission:"नमस्ते गीता जी, मैं अपनी पसंद का हाथ से रंगा पीस बनवाना चाहती हूँ।",piece:(n,id)=>`नमस्ते गीता जी, मुझे "${n}" (${id}) में रुचि है। क्या यह उपलब्ध है?`,onreq:"मूल्य पूछें",empty:"इस मेल में अभी कुछ नहीं है। कोई और रंग चुनें, या अपनी पसंद का बनवाएँ।"}
+};
+let LANG = "en";
+const norm = h => h.replace(/\s+/g," ").trim();
+const swaps = [];
+document.querySelectorAll("header *, main *, footer *, dialog *").forEach(el=>{
+  if (el.closest("svg,#grid")) return;
+  const en = norm(el.innerHTML);
+  if (HI[en]) swaps.push([el, el.innerHTML, HI[en]]);
+});
+const toneChips = [...document.querySelectorAll("[data-tone]")].map(b=>[b, b.lastChild.textContent]);
+const tx = p => LANG==="hi" ? {name:p.hi, alt:p.name, fab:FAB_HI[p.fab]||p.fab, type:TYPE_HI[p.type], tone:TONE_HI[p.tone]||p.tone, motif:PIECE_HI[p.id][0], desc:PIECE_HI[p.id][1]}
+                            : {name:p.name, alt:p.hi, fab:p.fab, type:p.type, tone:p.tone, motif:p.motif, desc:p.desc};
+function setLang(l){
+  LANG = l;
+  document.documentElement.lang = l;
+  swaps.forEach(([el,en,hi])=>el.innerHTML = l==="hi" ? hi : en);
+  toneChips.forEach(([b,en])=>b.lastChild.textContent = l==="hi" ? TONE_HI[b.dataset.tone] : en);
+  const btn = document.getElementById("langBtn");
+  btn.textContent = l==="hi" ? "English" : "हिंदी";
+  btn.lang = l==="hi" ? "en" : "hi";
+  btn.setAttribute("aria-label", l==="hi" ? "View in English" : "हिंदी में देखें");
+  document.querySelectorAll("a.wa").forEach(a => a.href = waLink(MSG[l][a.dataset.msg==="commission"?"commission":"general"]));
+  render();
+  if (lb.open) open(cur);
+  try { localStorage.setItem("gc-lang", l); } catch(e) {}
+}
+
+// Display order: wide cards land on positions 0, 7, 14, 21 of the full list.
+const ORDER=["GC-01","GC-16","GC-02","GC-15","GC-23","GC-03","GC-04","GC-08","GC-05","GC-21","GC-06","GC-18","GC-27","GC-07","GC-20","GC-09","GC-25","GC-17","GC-10","GC-26","GC-22","GC-24","GC-19","GC-28","GC-11","GC-12","GC-13","GC-14"];
+pieces.sort((a,b)=>ORDER.indexOf(a.id)-ORDER.indexOf(b.id));
+const priceOf = p => p.price || MSG[LANG].onreq;
+
+const waLink = msg => {
+  const t = encodeURIComponent(msg);
+  return WHATSAPP ? `https://wa.me/${WHATSAPP}?text=${t}` : `https://wa.me/?text=${t}`;
+};
+document.querySelectorAll("a.wa").forEach(a => a.href = waLink(a.dataset.msg==="commission" ? "Hello Geeta ji, I'd like to commission a hand-painted piece." : "Hello Geeta ji, I saw your hand-painted collection and would love to know more."));
+
+
+const grid = document.getElementById("grid");
+let fType = "all", fTone = null, shown = [];
+
+function render(){
+  shown = pieces.filter(p => (fType==="all"||p.type===fType) && (!fTone||p.tone===fTone));
+  grid.innerHTML = shown.length ? shown.map((p,i)=>{ const t=tx(p); return `
+    <button class="card${(fType==="all"&&!fTone&&[0,7,14,21].includes(i))?" wide":""}" data-i="${i}" aria-label="${t.name}, ${t.type}, ${t.fab}">
+      <div class="ph"><img src="img/${p.img[0]}.jpg" alt="${p.motif} on ${p.fab}" loading="lazy"><span class="tag">${t.type}</span></div>
+      <div class="meta"><span class="price">${priceOf(p)}</span><h3>${t.name}</h3></div>
+      <p class="fab">${t.fab} · <span class="hi"${LANG==="hi"?' style="font-family:var(--display);font-style:italic"':''}>${t.alt}</span></p>
+    </button>`;}).join("") : `<p class="empty">${MSG[LANG].empty}</p>`;
+}
+render();
+
+document.querySelectorAll("[data-type]").forEach(b=>b.addEventListener("click",()=>{
+  fType=b.dataset.type;
+  document.querySelectorAll("[data-type]").forEach(x=>x.setAttribute("aria-pressed",x===b));
+  render();
+}));
+document.querySelectorAll("[data-tone]").forEach(b=>b.addEventListener("click",()=>{
+  fTone = fTone===b.dataset.tone ? null : b.dataset.tone;
+  document.querySelectorAll("[data-tone]").forEach(x=>x.setAttribute("aria-pressed",x.dataset.tone===fTone));
+  render();
+}));
+
+const lb=document.getElementById("lb"), $=id=>document.getElementById(id);
+let cur=0;
+function showImg(p,k){
+  $("lbImg").src=`img/${p.img[k]}.jpg`; $("lbImg").alt=`${p.name}: ${p.motif}`;
+  $("lbThumbs").querySelectorAll("button").forEach((b,j)=>b.setAttribute("aria-current",j===k));
+}
+function open(i){
+  cur=(i+shown.length)%shown.length; const p=shown[cur], t=tx(p);
+  $("lbType").textContent=`${t.type} · ${p.id}`; $("lbName").textContent=t.name; $("lbHi").textContent=t.alt;
+  $("lbHi").className = LANG==="hi" ? "" : "deva";
+  $("lbDesc").textContent=t.desc; $("lbFab").textContent=t.fab; $("lbMotif").textContent=t.motif;
+  $("lbTone").textContent=t.tone; $("lbPrice").textContent=priceOf(p);
+  $("lbWa").href=waLink(MSG[LANG].piece(t.name,p.id));
+  $("lbThumbs").innerHTML = p.img.length>1 ? p.img.map((s,j)=>`<button aria-label="View photo ${j+1}"><img src="img/${s}.jpg" alt=""></button>`).join("") : "";
+  $("lbThumbs").querySelectorAll("button").forEach((b,j)=>b.addEventListener("click",()=>showImg(p,j)));
+  showImg(p,0);
+  if(!lb.open) lb.showModal();
+}
+grid.addEventListener("click",e=>{const c=e.target.closest(".card"); if(c) open(+c.dataset.i);});
+$("lbClose").onclick=()=>lb.close();
+$("lbPrev").onclick=()=>open(cur-1);
+$("lbNext").onclick=()=>open(cur+1);
+lb.addEventListener("click",e=>{if(e.target===lb) lb.close();});
+lb.addEventListener("keydown",e=>{if(e.key==="ArrowLeft")open(cur-1); if(e.key==="ArrowRight")open(cur+1);});
+document.getElementById("langBtn").addEventListener("click",()=>setLang(LANG==="hi"?"en":"hi"));
+try { if (localStorage.getItem("gc-lang")==="hi") setLang("hi"); } catch(e) {}
+</script>
+
+</body>
+</html>
