@@ -2,7 +2,7 @@
 
 Website for Geeta Creations: hand-painted chiffon and kota sarees and suits by Jaipur artist Geeta Chauhan.
 
-A single static page (`index.html`) with product photos in `img/`. No build step. It is served by GitHub Pages from the `main` branch.
+A single static page (`index.html`) with product photos in `img/`. No build step. It is served by GitHub Pages from the `main` branch at https://geetacreations.github.io/
 
 ## Editing
 

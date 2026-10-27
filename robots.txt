@@ -23,4 +23,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://chandrika-singh.github.io/GeetaCreations/sitemap.xml
+Sitemap: https://geetacreations.github.io/sitemap.xml
